@@ -1,5 +1,5 @@
 # SMP8
-A simple 8-bit microprocessor for the UNLV CpE 300L final project.
+An implementation of a simple 8-bit microprocessor for UNLV CpE 300L Digital Systems Architecture and Design final project.
 ## Overview
 For the CpE 300L final project, a simple 8-bit microprocessor (SMP8) was designed and tested. The SMP8 is an 8-bit microprocessor (instructions and data are 8-bit lengths). SMP8 has one 8-bit general purpose register, R, and an 8-bit Accumulator Register, AC. The result of the arithmetic operation is to be automatically loaded into the AC register. One of the operands in two-operand arithmetic/logic instructions (ADD, SUB, XOR, OR, AND) is continuously supplied from AC, and another comes from the R register. There is a 1-bit flip flop which is the Xero-flag (Z). It is set to 1 when the result of any arithmetic or logic instruction is 0 and vice versa. A program counter (PC) also forms the instruction address. Both data and instruction memories are 16 x 1-byte memories. 
 
